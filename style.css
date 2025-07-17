@@ -246,3 +246,23 @@ footer .logo {
     top: 80px;
   }
 }
+
+.go-home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.go-home .login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.go-home .login-button:hover {
+  background-color: #e91e63;
+}
