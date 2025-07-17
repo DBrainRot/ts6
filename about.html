@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - Vinyl Vault</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="branding">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1>Vinyl Vault</h1>
+    </div>
+    <nav>
+      <a href="login.html" class="login-button">Log In</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container-wrapper">
+    <div class="container">
+      <!-- Sidebar -->
+      <aside>
+        <div class="sidebar-toggle" onclick="toggleSidebar()"></div>
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html"><i class='bx bx-home'></i> <span>Home</span></a></li>
+          <li><a href="https://www.randomlists.com/random-music" target="_blank"><i class='bx bx-microphone'></i> <span>Browse Artists</span></a></li>
+          <li><a href="https://www.billboard.com/charts/hot-100/" target="_blank"><i class='bx bx-trending-up'></i> <span>Top Charts</span></a></li>
+          <li><a href="https://www.chosic.com/random-music-genre/" target="_blank"><i class='bx bx-headphone'></i> <span>Genres</span></a></li>
+          <li><a href="about.html"><i class='bx bx-info-circle'></i> <span>About</span></a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main>
+        <section class="text">
+          <h2>About Vinyl Vault</h2>
+          <p>Vinyl Vault is a music-themed website that brings together vinyl enthusiasts, collectors, and listeners who appreciate the charm of analog sound.</p>
+          <p>Here, you’ll discover a handpicked collection of beautiful vinyl records and links to explore more music online. Our goal is to merge the timeless feel of vinyl with modern music discovery.</p>
+          <p><strong>Designed and developed by:</strong> Reiven Sam P. Tuddao</p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <img src="logo.png" alt="Logo" class="logo">
+    <p>Web Designer: Reiven Sam P. Tuddao</p>
+    <p>Email: 202310401@fit.edu.ph</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleSidebar() {
+      document.querySelector('.container-wrapper').classList.toggle('sidebar-closed');
+    }
+  </script>
+
+</body>
+</html>

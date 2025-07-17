@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vinyl Vault</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="branding">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1>Vinyl Vault</h1>
+    </div>
+    <nav>
+      <a href="login.html" class="login-button">Log In</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container-wrapper">
+    <div class="container">
+      <!-- Sidebar -->
+      <aside>
+        <div class="sidebar-toggle" onclick="toggleSidebar()"></div>
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html"><i class='bx bx-home'></i> <span>Home</span></a></li>
+          <li><a href="https://www.randomlists.com/random-music" target="_blank"><i class='bx bx-microphone'></i> <span>Browse Artists</span></a></li>
+          <li><a href="https://www.billboard.com/charts/hot-100/" target="_blank"><i class='bx bx-trending-up'></i> <span>Top Charts</span></a></li>
+          <li><a href="https://www.chosic.com/random-music-genre/" target="_blank"><i class='bx bx-headphone'></i> <span>Genres</span></a></li>
+          <li><a href="about.html"><i class='bx bx-info-circle'></i> <span>About</span></a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main>
+        <section class="images">
+          <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE" target="_blank">
+            <div>
+              <img src="igor.jpg" alt="IGOR Vinyl">
+              <h3>IGOR</h3>
+              <p>Tyler, the Creator’s Grammy-winning album full of heartbreak, synths, and soul.</p>
+            </div>
+          </a>
+          <a href="https://open.spotify.com/album/3w5PWzbOdhuHd2oTynfBJw?si=VIfFW8oMQMqAB_hKq2lo5A" target="_blank">
+            <div>
+              <img src="hers.jpeg" alt="Her's Vinyl">
+              <h3>Invitation to Her's</h3>
+              <p>A dreamy indie pop album by Her's, full of charm, romance, and vintage energy.</p>
+            </div>
+          </a>
+          <a href="https://open.spotify.com/album/39VuC5rYQHAnR6xQwm1WDk?si=jZtWmCPhSYGbCAkHC-_itA" target="_blank">
+            <div>
+              <img src="smithereens.png" alt="SMITHEREENS Vinyl">
+              <h3>SMITHEREENS</h3>
+              <p>Joji’s mellow, moody follow-up to Nectar — raw, emotional, and stripped-back.</p>
+            </div>
+          </a>
+          <a href="https://open.spotify.com/album/7ivbFszr1TbVadj89BIy1y?si=AmRqLCfmT1-SslvQW2m5kQ" target="_blank">
+            <div>
+              <img src="neverenough.jpeg" alt="NEVER ENOUGH Vinyl">
+              <h3>NEVER ENOUGH</h3>
+              <p>Daniel Caesar’s introspective R&B album that dives into love, longing, and self-worth.</p>
+            </div>
+          </a>
+          <a href="https://open.spotify.com/track/0prsE9X5dqceSEuxKNRyHp?si=3e5b831d5ee84cfd" target="_blank">
+            <div>
+              <img src="blue.jpg" alt="Blue Vinyl">
+              <h3>Blue</h3>
+              <p>Galdive’s smooth electro-pop EP that blends dreamy vocals and chill electronic sounds.</p>
+            </div>
+          </a>
+        </section>
+
+        <section class="text">
+          <p>Discover a world of customized vinyl records — from legendary bands to experimental soundscapes.</p>
+          <p>Stream, collect, and appreciate the sound of analog music in modern times.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <img src="logo.png" alt="Logo" class="logo">
+    <p>Web Designer: Reiven Sam P. Tuddao</p>
+    <p>Email: 202310401@fit.edu.ph</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleSidebar() {
+      document.querySelector('.container-wrapper').classList.toggle('sidebar-closed');
+    }
+  </script>
+
+</body>
+</html>
